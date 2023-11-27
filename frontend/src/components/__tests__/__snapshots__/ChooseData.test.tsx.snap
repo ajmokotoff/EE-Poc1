@@ -1,0 +1,515 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ChooseData component 1`] = `
+<div>
+  <fieldset
+    class="usa-fieldset"
+  >
+    <legend
+      class="usa-hint grid-col-6"
+    >
+      <label
+        class="usa-label text-bold"
+      >
+        Data
+      </label>
+      <span
+        class="usa-hint"
+      >
+        Choose an existing dataset or create a new one to populate this chart.
+         
+        <a
+          class="usa-link action-link"
+          href="/admin/apihelp"
+          target="_blank"
+        >
+          <span>
+            How do I add datasets?
+          </span>
+          <svg
+            aria-hidden="false"
+            aria-label="(opens in a new tab)"
+            class="svg-inline--fa fa-external-link-alt fa-w-16 fa-xs margin-left-05"
+            data-icon="external-link-alt"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+      </span>
+    </legend>
+    <div
+      class="grid-row"
+    >
+      <div
+        class="padding-2px grid-row"
+        role="radiogroup"
+      >
+        <div
+          class="tablet:grid-col-4 padding-1"
+        >
+          <div
+            class="usa-radio"
+            role="radio"
+          >
+            <div
+              class="tablet:grid-col"
+            >
+              <input
+                aria-describedby="staticDataset-description"
+                class="usa-radio__input usa-radio__input--tile radio"
+                data-testid="staticDatasetRadioButton"
+                id="staticDataset"
+                name="datasetType"
+                type="radio"
+                value="StaticDataset"
+              />
+              <label
+                class="usa-radio__label"
+                for="staticDataset"
+              >
+                Static dataset
+                <span
+                  class="text-base usa-prose usa-checkbox__label-description"
+                  id="staticDataset-description"
+                >
+                  Upload a new dataset from file or elect an existing dataset.
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tablet:grid-col-4 padding-1"
+        >
+          <div
+            class="usa-radio"
+            role="radio"
+          >
+            <div
+              class="tablet:grid-col"
+            >
+              <input
+                aria-describedby="dynamicDataset-description"
+                class="usa-radio__input usa-radio__input--tile radio"
+                data-testid="dynamicDatasetRadioButton"
+                id="dynamicDataset"
+                name="datasetType"
+                type="radio"
+                value="DynamicDataset"
+              />
+              <label
+                class="usa-radio__label"
+                for="dynamicDataset"
+              >
+                Dynamic dataset
+                <span
+                  class="text-base usa-prose usa-checkbox__label-description"
+                  id="dynamicDataset-description"
+                >
+                  Choose from a list of continuously updated datasets.
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-label="Choose static dataset"
+      hidden=""
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        class="grid-row"
+      >
+        <div
+          class="tablet:grid-col-6"
+        >
+          <div
+            class="usa-form-group"
+          >
+            <label
+              class="usa-label text-bold"
+              for="dataset"
+            >
+              Static datasets
+            </label>
+            <div
+              class="usa-hint"
+            >
+              <span>
+                Upload a dataset from a CSV or Excel file, or choose an existing static dataset.
+                 
+                <a
+                  class="usa-link action-link"
+                  href="/admin/formatting"
+                  target="_blank"
+                >
+                  <span>
+                    How do I format my file?
+                  </span>
+                  <svg
+                    aria-hidden="false"
+                    aria-label="(opens in a new tab)"
+                    class="svg-inline--fa fa-external-link-alt fa-w-16 fa-xs margin-left-05"
+                    data-icon="external-link-alt"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+              </span>
+            </div>
+            <span
+              class="usa-error-message"
+              id="file-input-error-alert"
+              role="alert"
+            />
+            <div
+              class="usa-file-input"
+            >
+              <div
+                class="usa-file-input__target"
+              >
+                <div
+                  aria-hidden="true"
+                  class="usa-file-input__instructions"
+                >
+                  <span
+                    class="usa-file-input__drag-text"
+                  >
+                    Drag file here or 
+                  </span>
+                  <span
+                    class="usa-file-input__choose"
+                  >
+                    choose from folder
+                  </span>
+                </div>
+                <div
+                  class="usa-file-input__box"
+                />
+                <input
+                  accept=".csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                  class="usa-file-input__input"
+                  id="dataset"
+                  name="dataset"
+                  type="file"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tablet:grid-col-3"
+        >
+          <button
+            class="usa-button usa-button--outline vertCenter"
+            type="button"
+          >
+            Browse datasets
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-label="Choose dynamic dataset"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        class="grid-row margin-top-3 margin-bottom-1"
+      >
+        <div
+          class="tablet:grid-col-4 padding-top-1px"
+        >
+          <label
+            for="search"
+          >
+            Search dynamic datasets
+          </label>
+          <div
+            class="usa-search usa-search--small"
+            role="search"
+          >
+            <input
+              aria-label="Enter search terms"
+              class="usa-input"
+              id="search"
+              name="query"
+              placeholder=""
+              style="height: 37px;"
+              type="search"
+              value=""
+            />
+            <button
+              aria-label="Perform search"
+              class="usa-button usa-button--base padding-x-2"
+              style="height: 37px; border-top-left-radius: 0; border-bottom-left-radius: 0;"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-search fa-w-16 "
+                data-icon="search"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="margin-top: -3px;"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="overflow-hidden"
+      >
+        <div
+          class="overflow-x-hidden overflow-y-hidden"
+        >
+          <table
+            class="usa-table usa-table--borderless"
+            id="items"
+            role="table"
+            width="100%"
+          >
+            <thead>
+              <tr
+                role="row"
+              >
+                <th
+                  aria-sort="none"
+                  colspan="1"
+                  role="columnheader"
+                  scope="col"
+                  style="padding: 0.5rem 1rem;"
+                >
+                  <span />
+                </th>
+                <th
+                  aria-sort="none"
+                  colspan="1"
+                  role="columnheader"
+                  scope="col"
+                  style="padding: 0.5rem 1rem;"
+                >
+                  <button
+                    aria-label="Toggle SortBy: Name"
+                    class="usa-button usa-button--unstyled text-no-underline"
+                    style="cursor: pointer;"
+                    title="Toggle SortBy: Name"
+                    type="button"
+                  >
+                    <span>
+                      Name
+                    </span>
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-chevron-down fa-w-14 margin-left-1"
+                      data-icon="chevron-down"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      viewBox="0 0 448 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                </th>
+                <th
+                  aria-sort="descending"
+                  colspan="1"
+                  role="columnheader"
+                  scope="col"
+                  style="padding: 0.5rem 1rem;"
+                >
+                  <button
+                    aria-label="Toggle SortBy: Last updated"
+                    class="usa-button usa-button--unstyled text-no-underline"
+                    style="cursor: pointer;"
+                    title="Toggle SortBy: Last updated"
+                    type="button"
+                  >
+                    <span>
+                      Last updated
+                    </span>
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-chevron-circle-down fa-w-16 margin-left-1"
+                      data-icon="chevron-circle-down"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      viewBox="0 0 512 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zM273 369.9l135.5-135.5c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L256 285.1 154.4 183.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L239 369.9c9.4 9.4 24.6 9.4 34 0z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                </th>
+                <th
+                  aria-sort="none"
+                  colspan="1"
+                  role="columnheader"
+                  scope="col"
+                  style="padding: 0.5rem 1rem;"
+                >
+                  <button
+                    aria-label="Toggle SortBy: Description"
+                    class="usa-button usa-button--unstyled text-no-underline"
+                    style="cursor: pointer;"
+                    title="Toggle SortBy: Description"
+                    type="button"
+                  >
+                    <span>
+                      Description
+                    </span>
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-chevron-down fa-w-14 margin-left-1"
+                      data-icon="chevron-down"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      viewBox="0 0 448 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                </th>
+                <th
+                  aria-sort="none"
+                  colspan="1"
+                  role="columnheader"
+                  scope="col"
+                  style="padding: 0.5rem 1rem;"
+                >
+                  <button
+                    aria-label="Toggle SortBy: Tags"
+                    class="usa-button usa-button--unstyled text-no-underline"
+                    style="cursor: pointer;"
+                    title="Toggle SortBy: Tags"
+                    type="button"
+                  >
+                    <span>
+                      Tags
+                    </span>
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-chevron-down fa-w-14 margin-left-1"
+                      data-icon="chevron-down"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      viewBox="0 0 448 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              role="rowgroup"
+            >
+              <tr
+                role="row"
+              >
+                <td
+                  role="cell"
+                >
+                  <div>
+                    <input
+                      style="cursor: pointer;"
+                      type="radio"
+                    />
+                  </div>
+                </td>
+                <td
+                  role="cell"
+                >
+                  abc
+                </td>
+                <td
+                  role="cell"
+                >
+                  2020-01-01 00:00
+                </td>
+                <td
+                  role="cell"
+                >
+                  
+                </td>
+                <td
+                  role="cell"
+                >
+                  
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+  <br />
+  <br />
+  <hr />
+  <button
+    class="usa-button usa-button--outline margin-top-1"
+    type="button"
+  >
+    Back
+  </button>
+  <button
+    class="usa-button usa-button--base margin-top-1"
+    type="button"
+  >
+    Continue
+  </button>
+  <button
+    class="usa-button usa-button--unstyled text-base-dark hover:text-base-darker active:text-base-darkest margin-top-1"
+    type="button"
+  >
+    Cancel
+  </button>
+</div>
+`;

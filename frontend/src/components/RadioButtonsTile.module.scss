@@ -1,0 +1,11 @@
+@import "../styles/base";
+
+.radio {
+    &:hover,
+    &:active,
+    &:checked {
+        & + [class*="__label"] {
+            @include u-bg("blue-5v", "!important");
+        }
+    }
+}

@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a multiline textarea 1`] = `
+<div>
+  <div
+    class="usa-form-group"
+    role="contentinfo"
+  >
+    <label
+      class="usa-label text-bold"
+      for="x"
+    >
+      Hello
+    </label>
+    <div
+      class="usa-hint"
+      id="x-description"
+    />
+    <textarea
+      aria-describedby="x-description"
+      class="usa-textarea"
+      id="x"
+      name="x"
+      rows="10"
+      style="height: auto;"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders a text input 1`] = `
+<div>
+  <div
+    class="usa-form-group"
+    role="contentinfo"
+  >
+    <label
+      class="usa-label text-bold"
+      for="x"
+    >
+      Hello
+    </label>
+    <div
+      class="usa-hint"
+      id="x-description"
+    />
+    <input
+      aria-describedby="x-description"
+      class="usa-input"
+      id="x"
+      name="x"
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`renders a text input with hint 1`] = `
+<div>
+  <div
+    class="usa-form-group"
+    role="contentinfo"
+  >
+    <label
+      class="usa-label text-bold"
+      for="x"
+    >
+      Hello
+    </label>
+    <div
+      class="usa-hint"
+      id="x-description"
+    >
+      Additional text
+    </div>
+    <input
+      aria-describedby="x-description"
+      class="usa-input"
+      id="x"
+      name="x"
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`shows an error message 1`] = `
+<div>
+  <div
+    class="usa-form-group usa-form-group--error"
+    role="contentinfo"
+  >
+    <label
+      class="usa-label text-bold"
+      for="x"
+    >
+      Hello
+    </label>
+    <div
+      class="usa-hint"
+      id="x-description"
+    >
+      Also displays hint
+    </div>
+    <span
+      class="usa-error-message"
+      id="input-error-message"
+      role="alert"
+    >
+      Something went wrong
+    </span>
+    <input
+      aria-describedby="x-description"
+      class="usa-input"
+      id="x"
+      name="x"
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;

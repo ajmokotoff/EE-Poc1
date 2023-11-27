@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`branding and styling settings should match snapshot 1`] = `
+<div>
+  <div
+    class="usa-section padding-top-3"
+  >
+    <div
+      class="grid-container padding-x-0"
+    >
+      <div
+        class="grid-row grid-gap"
+      >
+        <div
+          class="desktop:grid-col-3"
+        >
+          <nav
+            aria-label="Left navigation"
+          >
+            <ul
+              class="usa-sidenav"
+            >
+              <li
+                class="usa-sidenav__item"
+              >
+                <a
+                  class="usa-current"
+                  href="/admin/settings"
+                >
+                  Settings
+                </a>
+                <ul
+                  class="usa-sidenav__sublist"
+                >
+                  <li
+                    class="usa-sidenav__item"
+                  >
+                    <a
+                      aria-current="page"
+                      class="usa-current"
+                      href="/admin/settings/topicarea"
+                    >
+                      Topic areas
+                    </a>
+                  </li>
+                </ul>
+                <ul
+                  class="usa-sidenav__sublist"
+                >
+                  <li
+                    class="usa-sidenav__item"
+                  >
+                    <a
+                      class=""
+                      href="/admin/settings/publishingguidance"
+                    >
+                      Publishing guidance
+                    </a>
+                  </li>
+                </ul>
+                <ul
+                  class="usa-sidenav__sublist"
+                >
+                  <li
+                    class="usa-sidenav__item"
+                  >
+                    <a
+                      class=""
+                      href="/admin/settings/brandingandstyling"
+                    >
+                      Branding and styling
+                    </a>
+                  </li>
+                </ul>
+                <ul
+                  class="usa-sidenav__sublist"
+                >
+                  <li
+                    class="usa-sidenav__item"
+                  >
+                    <a
+                      class=""
+                      href="/admin/settings/publishedsite"
+                    >
+                      Published site
+                    </a>
+                  </li>
+                </ul>
+                <ul
+                  class="usa-sidenav__sublist"
+                >
+                  <li
+                    class="usa-sidenav__item"
+                  >
+                    <a
+                      class=""
+                      href="/admin/settings/dateformat"
+                    >
+                      Date and time format
+                    </a>
+                  </li>
+                </ul>
+                <ul
+                  class="usa-sidenav__sublist"
+                >
+                  <li
+                    class="usa-sidenav__item"
+                  >
+                    <a
+                      class=""
+                      href="/admin/settings/adminsite"
+                    >
+                      Admin site
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div
+          class="desktop:grid-col-9 usa-prose mobile-margin-top-2"
+          id="main-content"
+        >
+          <h1>
+            Branding and styling
+          </h1>
+          <p>
+            Customize your performance dashboard.
+          </p>
+          <br />
+          <h2
+            class="margin-top-2-important"
+          >
+            Logo
+          </h2>
+          <p>
+            This logo will appear in the header next to the performance dashboard name and in the published site header.
+          </p>
+          <br />
+          <div
+            class="grid-row margin-top-0-important"
+          >
+            <div
+              class="grid-col flex-1 text-left"
+            >
+              <img
+                alt="Organization logo"
+                data-testid="logoImage"
+                src="logo.svg"
+              />
+            </div>
+            <div
+              class="grid-col flex-9 padding-left-3 text-right"
+            >
+              <button
+                class="usa-button usa-button--outline margin-top-2"
+              >
+                Edit
+              </button>
+            </div>
+          </div>
+          <hr
+            style="height: 1px; background-color: rgb(223, 225, 226); margin: 2rem 0px;"
+          />
+          <h2
+            class="margin-top-2-important"
+          >
+            Favicon
+          </h2>
+          <p>
+            This favicon will appear in the browser tab.
+          </p>
+          <br />
+          <div
+            class="grid-row margin-top-0-important"
+          >
+            <div
+              class="grid-col flex-1 text-left"
+            >
+              <img
+                alt="Organization favicon"
+                src="favicon.svg"
+              />
+            </div>
+            <div
+              class="grid-col flex-9 padding-left-3 text-right"
+            >
+              <button
+                class="usa-button usa-button--outline margin-top-2"
+              >
+                Edit
+              </button>
+            </div>
+          </div>
+          <hr
+            style="height: 1px; background-color: rgb(223, 225, 226); margin: 2rem 0px;"
+          />
+          <h2
+            class="margin-top-2-important"
+          >
+            Colors
+          </h2>
+          <p>
+            Customize these colors to make your dashboards appear similar in style to your organization's brand and color palette.
+          </p>
+          <br />
+          <div
+            class="grid-row margin-top-0-important"
+          >
+            <div
+              class="grid-col flex-1 text-left"
+            >
+              <div
+                class="grid-col flex-1 text-left"
+              >
+                <h3>
+                  Primary color
+                </h3>
+              </div>
+              <div
+                class="grid-row margin-top-0-important"
+              >
+                <div
+                  class="radius-md"
+                  style="background-color: rgb(255, 255, 255); margin: 10px 0px; width: 25px; height: 25px;"
+                />
+                <div
+                  class="font-sans-lg grid-col flex-9 margin-left-1 margin-top-05"
+                >
+                  #ffffff
+                </div>
+              </div>
+            </div>
+            <div
+              class="grid-col flex-3 grid-col flex-3 text-right"
+            >
+              <button
+                class="usa-button usa-button--outline margin-top-2"
+              >
+                Edit
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

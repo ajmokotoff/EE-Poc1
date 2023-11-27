@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a step indicator with multiple segments 1`] = `
+<div>
+  <div
+    aria-valuemax="3"
+    aria-valuemin="1"
+    aria-valuenow="1"
+    aria-valuetext="1 of 3: Step 1"
+    class="usa-step-indicator usa-step-indicator--counters-sm"
+    role="progressbar"
+  >
+    <ol
+      aria-label="progress"
+      class="usa-step-indicator__segments"
+    >
+      <li
+        aria-current="step"
+        class="usa-step-indicator__segment usa-step-indicator__segment--current"
+      >
+        <span
+          class="usa-step-indicator__segment-label"
+        >
+          <div
+            class="text-base-dark"
+          >
+            Step 1
+          </div>
+        </span>
+      </li>
+      <li
+        class="usa-step-indicator__segment"
+      >
+        <span
+          class="usa-step-indicator__segment-label"
+        >
+          <div
+            class="text-base-dark"
+          >
+            Step 2
+          </div>
+           
+          <span
+            class="usa-sr-only"
+          >
+            not completed
+          </span>
+        </span>
+      </li>
+      <li
+        class="usa-step-indicator__segment"
+      >
+        <span
+          class="usa-step-indicator__segment-label"
+        >
+          <div
+            class="text-base-dark"
+          >
+            Step 3
+          </div>
+           
+          <span
+            class="usa-sr-only"
+          >
+            not completed
+          </span>
+        </span>
+      </li>
+    </ol>
+    
+  </div>
+</div>
+`;
+
+exports[`renders a step indicator with one completed step 1`] = `
+<div>
+  <div
+    aria-valuemax="3"
+    aria-valuemin="1"
+    aria-valuenow="2"
+    aria-valuetext="2 of 3: Step 2"
+    class="usa-step-indicator usa-step-indicator--counters-sm"
+    role="progressbar"
+  >
+    <ol
+      aria-label="progress"
+      class="usa-step-indicator__segments"
+    >
+      <li
+        class="usa-step-indicator__segment usa-step-indicator__segment--complete"
+      >
+        <span
+          class="usa-step-indicator__segment-label"
+        >
+          <div
+            class="text-base-dark"
+          >
+            Step 1
+          </div>
+           
+          <span
+            class="usa-sr-only"
+          >
+            completed
+          </span>
+        </span>
+      </li>
+      <li
+        aria-current="step"
+        class="usa-step-indicator__segment usa-step-indicator__segment--current"
+      >
+        <span
+          class="usa-step-indicator__segment-label"
+        >
+          <div
+            class="text-base-dark"
+          >
+            Step 2
+          </div>
+        </span>
+      </li>
+      <li
+        class="usa-step-indicator__segment"
+      >
+        <span
+          class="usa-step-indicator__segment-label"
+        >
+          <div
+            class="text-base-dark"
+          >
+            Step 3
+          </div>
+           
+          <span
+            class="usa-sr-only"
+          >
+            not completed
+          </span>
+        </span>
+      </li>
+    </ol>
+    
+  </div>
+</div>
+`;
+
+exports[`returns null when current is out of bounds 1`] = `<div />`;

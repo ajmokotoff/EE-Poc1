@@ -1,0 +1,24 @@
+$theme-show-notifications: false;
+$theme-image-path: "~uswds/img";
+$theme-font-path: "~uswds/fonts";
+
+//general settings
+$theme-focus-color: "blue-60v";
+
+// links
+$theme-link-color: "base";
+$theme-link-visited-color: "base-light";
+$theme-link-hover-color: "base-dark";
+$theme-link-active-color: "base-darker";
+$theme-link-reverse-color: "base-light";
+$theme-link-reverse-hover-color: "base-lighter";
+$theme-link-reverse-active-color: "white";
+
+// Base colors
+$theme-color-lightest: "gray-cool-20";
+$theme-color-lighter: "gray-cool-30";
+$theme-color-light: "gray-cool-50";
+$theme-color-base: "gray-cool-70";
+$theme-color-base-dark: "gray-cool-80";
+$theme-color-base-darker: "gray-cool-90";
+$theme-color-base-darkest: "black";
